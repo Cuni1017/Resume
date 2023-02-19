@@ -29,7 +29,7 @@ export default function Button({
     "flex items-center px-3 py-1.5 border",
     {
       // "border-blue-500 bg-blue-500 text-white": primary,
-      // 原本可以一次寫好，可是移過來vite後不能使用覆蓋的方法了...
+      // 原本用CRA可以一次寫好，可是移過來vite後不能使用覆蓋的方法了...
       "border-blue-500": primary,
       "bg-blue-500": primary && !outlined,
       "border-gray-900": secondary,

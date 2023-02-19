@@ -1,0 +1,29 @@
+$sm: 600px;
+$md: 900px;
+$lg: 1200px;
+$xl: 1536px;
+
+#root {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-image: url("/src/assets/clement-helardot-95YRwf6CNw8-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.homepage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: white;
+  .name {
+    font-size: 2.5rem;
+  }
+  .motto {
+    font-size: 1.5rem;
+  }
+}

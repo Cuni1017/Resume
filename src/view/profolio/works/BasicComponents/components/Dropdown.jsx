@@ -20,6 +20,7 @@ export default function Dropdown({ options, value, onChange }) {
     const handler = (event) => {
       // 如果divEl有包含點擊的目標 => 表示點擊裡面
       // 如果不成立，縮起清單
+
       if (!divEl.current.contains(event.target)) {
         // console.log("outside");
         setIsOpen(false);

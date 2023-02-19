@@ -4,7 +4,7 @@ import { GoDeviceMobile, GoComment, GoFlame } from "react-icons/go";
 
 export default function ButtonPage() {
   const handleClick = () => {
-    // console.log("click");
+    console.log("click");
   };
 
   return (

@@ -38,7 +38,7 @@ const mainNavigation = () => {
   };
 
   return (
-    <AppBar style={{ backgroundColor: "#1c1c1c" }}>
+    <AppBar style={{ backgroundColor: "#1c1c1c" }} position="relative">
       <Container maxWidth="lg">
         <Toolbar>
           <Typography variant="h5">Logo</Typography>
