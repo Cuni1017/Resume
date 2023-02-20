@@ -1,4 +1,5 @@
 import { Outlet } from "react-router-dom";
+import { Container } from "@mui/material";
 import { Breadcrumbs, Link } from "@mui/material";
 import NavigateNextIcon from "@mui/icons-material/NavigateNext";
 import { Link as RouterLink, useLocation } from "react-router-dom";
@@ -19,7 +20,7 @@ const Profolio = () => {
   const pathnames = location.pathname.split("/").filter((x) => x);
 
   return (
-    <div>
+    <Container maxWidth="lg" sx={{ flex: "1" }}>
       <Breadcrumbs
         separator={<NavigateNextIcon fontSize="small" />}
         aria-label="breadcrumb"
@@ -41,7 +42,7 @@ const Profolio = () => {
         })}
       </Breadcrumbs>
       <Outlet />
-    </div>
+    </Container>
   );
 };
 
