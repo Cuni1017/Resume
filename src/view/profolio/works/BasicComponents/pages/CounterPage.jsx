@@ -44,8 +44,7 @@ const reducer = (state, action) => {
     // };
 
     default:
-      throw new Error("unexpected action type: " + action.type); //方式一
-    // return state; //方式二
+      throw new Error("unexpected action type: " + action.type);
   }
 };
 
